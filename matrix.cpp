@@ -13,6 +13,14 @@ int main()
             a[i][j] = i+j;
         }
     }
-    cout<<"finished";
+    for(i=1; i<=n; i++)
+    {
+        for(j=1; j<=n; j++)
+        {
+            cout<<a[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    
     return 0;
 }
